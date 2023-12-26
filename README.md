@@ -6,7 +6,7 @@
 - [x] Menus
 - [x] Empresas asociadas
 - [x] Recomendaciones
-- [ ] Footer
+- [x] Footer
 - [ ] Modal menu
 - [ ] Preferencias menu
 - [ ] Menu hamburguesa (responsive)

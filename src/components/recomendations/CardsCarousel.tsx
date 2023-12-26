@@ -58,6 +58,9 @@ export default function CardsCarrousel() {
       }}
       indicators={false}
       navButtonsAlwaysVisible
+      sx={{
+        pb: 1.5,
+      }}
     >
       {carouselGroups.map((carouselGroup, i) => (
         <Box display={"flex"} justifyContent={"center"} gap={2} key={i}>

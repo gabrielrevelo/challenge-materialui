@@ -10,6 +10,7 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -221,18 +222,26 @@ export default function ModalMenu({ isOpenModal, closeModal }: any) {
             <AddShoppingCartIcon />
           </Button>
         </Box>
-        <Button
-          variant="contained"
-          sx={{
-            padding: 1,
-            boxShadow: "none",
-            borderRadius: "5px",
-            textTransform: "capitalize",
-            fontWeight: 700,
+        <Link
+          to={"/menu-preferences"}
+          style={{
+            width: "100%",
           }}
         >
-          Preferencias
-        </Button>
+          <Button
+            variant="contained"
+            sx={{
+              padding: 1,
+              boxShadow: "none",
+              borderRadius: "5px",
+              textTransform: "capitalize",
+              fontWeight: 700,
+              width: "100%",
+            }}
+          >
+            Preferencias
+          </Button>
+        </Link>
       </Box>
     </Modal>
   );

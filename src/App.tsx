@@ -4,8 +4,10 @@ import Plates from "./components/plates/Plates";
 import SearchBar from "./components/SearchBar";
 import Menus from "./components/menus/Menus";
 import Companies from "./components/companies/Companies";
+import Recomendations from "./components/recomendations/Recomendations";
 
 export default function App() {
+
   return (
     <>
       <Box display={"flex"}>
@@ -15,6 +17,7 @@ export default function App() {
           <Plates />
           <Menus />
           <Companies />
+          <Recomendations />
         </Box>
       </Box>
     </>

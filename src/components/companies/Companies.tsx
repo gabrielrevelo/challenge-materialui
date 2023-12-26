@@ -1,4 +1,4 @@
-import { Typography, Box, Grid } from "@mui/material";
+import { Typography, Grid } from "@mui/material";
 import CompanyCard from "./CompanyItem";
 
 const companies: Array<any> = [];
@@ -17,9 +17,9 @@ export default function Companies() {
       <Typography my={5} align="center" fontSize={25} fontWeight={700}>
         Empresas asociadas
       </Typography>
-      <Grid container spacing={5} justifyContent={"center"}>
+      <Grid container spacing={4.5} justifyContent={"center"}>
         {companies.map(({ name, description} : any) => (
-          <Grid item lg={2} display={"flex"} justifyContent={"center"}>
+          <Grid item lg={2} display={"flex"} justifyContent={"center"} key={name}>
             <CompanyCard name={name} description={description} />
           </Grid>
         ))}

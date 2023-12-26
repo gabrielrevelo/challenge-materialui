@@ -5,7 +5,7 @@
 - [x] Platos
 - [x] Menus
 - [x] Empresas asociadas
-- [ ] Recomendaciones
+- [x] Recomendaciones
 - [ ] Footer
 - [ ] Modal menu
 - [ ] Preferencias menu

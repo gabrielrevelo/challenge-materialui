@@ -45,6 +45,7 @@ export default function PlateCard({ companyName, plateName, platePrice }: any) {
         <Box
           sx={{
             fontSize: "14px",
+            fontWeight: 700,
           }}
         >
           {plateName}

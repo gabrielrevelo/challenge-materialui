@@ -14,7 +14,8 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-material-ui-carousel": "^3.4.2"
   },
   "devDependencies": {
     "@types/react": "latest",

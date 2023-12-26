@@ -1,5 +1,5 @@
 import { Typography, Container, Grid } from "@mui/material";
-import MenuCard from "./MenuCard";
+import CardMenu from "./CardMenu";
 import menus from "./MenusData";
 
 export default function Menus() {
@@ -18,7 +18,7 @@ export default function Menus() {
               display={"flex"}
               justifyContent={"center"}
             >
-              <MenuCard
+              <CardMenu
                 companyName={"Empresa"}
                 menuName={"Menu"}
                 plates={"Platos"}

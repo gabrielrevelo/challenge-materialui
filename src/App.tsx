@@ -3,6 +3,7 @@ import SideBar from "./components/SideBar";
 import Plates from "./components/plates/Plates";
 import SearchBar from "./components/SearchBar";
 import Menus from "./components/menus/Menus";
+import Companies from "./components/companies/Companies";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <SearchBar />
           <Plates />
           <Menus />
+          <Companies />
         </Box>
       </Box>
     </>

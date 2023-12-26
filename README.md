@@ -4,7 +4,7 @@
 - [x] SearchBar
 - [x] Platos
 - [x] Menus
-- [ ] Empresas asociadas
+- [x] Empresas asociadas
 - [ ] Recomendaciones
 - [ ] Footer
 - [ ] Modal menu

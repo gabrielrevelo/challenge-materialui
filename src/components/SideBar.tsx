@@ -33,14 +33,7 @@ export default function SideBar() {
           Logo
         </Typography>
         <Box display={"flex"} gap={1}>
-          <Box
-            display={"flex"}
-            gap={1}
-            width={72}
-            height={72}
-            bgcolor={"white"}
-            borderRadius={36}
-          ></Box>
+          <Box width={72} height={72} bgcolor={"white"} borderRadius={36}></Box>
           <Box>
             <Typography fontSize={16}>Nombre de usuario</Typography>
             <Typography color={"rgba(255, 255, 255, 0.50)"}>

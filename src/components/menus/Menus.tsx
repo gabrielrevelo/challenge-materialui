@@ -8,7 +8,7 @@ export default function Menus() {
       <Typography my={5} align="center" fontSize={25} fontWeight={700}>
         Menus
       </Typography>
-      <Container maxWidth="sm">
+      <Container maxWidth="md">
         <Grid container spacing={5} justifyContent={"center"}>
           {menus.map((menu: any, index: any) => (
             <Grid

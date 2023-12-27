@@ -7,6 +7,6 @@
 - [x] Empresas asociadas
 - [x] Recomendaciones
 - [x] Footer
-- [ ] Modal menu
-- [ ] Preferencias menu
-- [ ] Menu hamburguesa (responsive)
+- [x] Modal menu
+- [x] Preferencias menu
+- [x] Menu hamburguesa (responsive)
